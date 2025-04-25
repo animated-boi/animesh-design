@@ -68,18 +68,25 @@ export default function HeroSection() {
           initial={{ y: 20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.8, duration: 0.6 }}
-          className="mt-8 flex justify-center gap-4"
+          className="mt-8 flex flex-wrap justify-center gap-4"
         >
           <a
             href="#projects"
-            className="px-6 py-3 bg-white/10 border border-white/20 text-white rounded-full hover:bg-white/20 transition"
+            className="px-6 py-3 bg-gradient-to-r from-blue-500/20 to-indigo-500/20 border border-blue-500/30 text-white rounded-full hover:bg-gradient-to-r hover:from-blue-500/30 hover:to-indigo-500/30 transition-all duration-300"
           >
             Explore Work
           </a>
-		  
+          
+          <a
+            href="#design-process"
+            className="px-6 py-3 bg-gradient-to-r from-purple-500/20 to-pink-500/20 border border-purple-500/30 text-white rounded-full hover:bg-gradient-to-r hover:from-purple-500/30 hover:to-pink-500/30 transition-all duration-300"
+          >
+            My Design Process
+          </a>
+          
           <a
             href="#contact"
-            className="px-6 py-3 border border-white/20 text-white rounded-full hover:bg-white/10 transition"
+            className="px-6 py-3 bg-gradient-to-r from-pink-500/20 to-red-500/20 border border-pink-500/30 text-white rounded-full hover:bg-gradient-to-r hover:from-pink-500/30 hover:to-red-500/30 transition-all duration-300"
           >
             Connect
           </a>
